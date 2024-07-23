@@ -1,23 +1,19 @@
-Running the Backend (FastAPI)
-Clone the Repository:
+# FastAPI Application
 
-bash
-Copy code
+This repository contains a FastAPI application.
+
+## Getting Started
+
+To get started with this FastAPI application, follow these steps:
+
+### Prerequisites
+
+Make sure you have Docker installed on your machine. You can download Docker from [https://www.docker.com/get-started](https://www.docker.com/get-started).
+
+### Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
 git clone https://github.com/your/repository.git
 cd repository-name
-Build the Docker Image:
-
-bash
-Copy code
-docker build -t fastapi-app .
-Run the Docker Container:
-
-bash
-Copy code
-docker run -d -p 8000:8000 fastapi-app
-Replace 8000 with the port on which your FastAPI server is running if different.
-
-Access the FastAPI Swagger Documentation:
-
-Open your web browser and go to http://localhost:8000/docs to view the Swagger documentation.
-
