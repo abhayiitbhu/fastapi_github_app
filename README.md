@@ -16,15 +16,20 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/your/repository.git
-cd repository-name```
+cd repository-name
+```
 
 ### Build and Run with Docker
 Build the Docker image for the FastAPI application:
 
-```docker build -t fastapi-app .```
+```
+docker build -t fastapi-app .
+```
 
 Run the Docker container with the FastAPI application:
 
-```docker run -d -p 8000:8000 fastapi-app```
+```
+docker run -d -p 8000:8000 fastapi-app
+```
 
 
