@@ -15,8 +15,8 @@ Make sure you have Docker installed on your machine. You can download Docker fro
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your/repository.git
-cd repository-name
+git clone https://github.com/abhayiitbhu/fastapi_github_app
+cd fastapi_github_app
 ```
 
 ### Build and Run with Docker
